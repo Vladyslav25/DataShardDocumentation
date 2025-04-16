@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['ondatachange_0',['OnDataChange',['../class_u_data_shard_object.html#a8561059ba880bbb09571350cf475c56d',1,'UDataShardObject']]],
-  ['onkeyadded_1',['OnKeyAdded',['../class_u_data_shard_subsystem.html#ad3cb98ae61a6aad7f50c2f4024edf9a3',1,'UDataShardSubsystem']]],
-  ['onkeyremoved_2',['OnKeyRemoved',['../class_u_data_shard_subsystem.html#a8c6593d07606a68c0ae0d00a78d80dd2',1,'UDataShardSubsystem']]],
-  ['onshardadded_3',['OnShardAdded',['../class_u_data_shard_subsystem.html#afd05a036062466468f07d0eee80573a7',1,'UDataShardSubsystem']]],
-  ['onshardremoved_4',['OnShardRemoved',['../class_u_data_shard_subsystem.html#a1ac1fad187d70596bd929a0d44ea1fbd',1,'UDataShardSubsystem']]],
-  ['operator_21_3d_5',['operator!=',['../struct_f_data_shard_key_delegate_pair.html#a459ca8ece847a32ee65ead2028f30b3f',1,'FDataShardKeyDelegatePair::operator!=()'],['../struct_f_data_shard_i_d_delegate_pair.html#a6256bb8d9ac70a0e4341eeb844949409',1,'FDataShardIDDelegatePair::operator!=()']]],
-  ['operator_3d_6',['operator=',['../struct_f_data_shard_key_delegate_pair.html#aa55c7fd8649e684565d159845b0de600',1,'FDataShardKeyDelegatePair::operator=()'],['../struct_f_data_shard_i_d_delegate_pair.html#a9774f6c999d5bf879eece6406ecdf3d2',1,'FDataShardIDDelegatePair::operator=()']]],
-  ['operator_3d_3d_7',['operator==',['../struct_f_data_shard_key.html#a47a2cf6f61c7711e8f2a5aaebd9d3083',1,'FDataShardKey::operator==()'],['../struct_f_data_shard_key_delegate_pair.html#ac2cd375864f220ee0964eb9be2ff538e',1,'FDataShardKeyDelegatePair::operator==()'],['../struct_f_data_shard_i_d_delegate_pair.html#a081a229728076188df52404260fb450d',1,'FDataShardIDDelegatePair::operator==()']]]
+  ['remove_0',['Remove',['../struct_f_data_shard_key.html#a3f3e5ef869077270e269da04e7d0c5c7',1,'FDataShardKey']]],
+  ['removekey_1',['RemoveKey',['../class_u_data_shard_subsystem.html#a0c670a2698066c0cc621e3b8c4a2c506',1,'UDataShardSubsystem']]],
+  ['removeshard_2',['RemoveShard',['../class_u_data_shard_utils___b_p.html#ab824ecaa6cbf3060aeae876cb4e1ee36',1,'UDataShardUtils_BP']]],
+  ['requestshard_3',['RequestShard',['../class_u_data_shard_pool.html#a7a937da611e83ea25dac235bb3adbc34',1,'UDataShardPool']]],
+  ['reset_4',['Reset',['../class_u_data_shard_object.html#afc774b185d1f954d4c745bd26d36a390',1,'UDataShardObject']]],
+  ['returnshard_5',['ReturnShard',['../class_u_data_shard_pool.html#acc4267ee411bd05a6cca9375bc9c43cc',1,'UDataShardPool']]]
 ];

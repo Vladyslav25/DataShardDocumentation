@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Data Shard: FDataShardKey Struct Reference</title>
+<title>Data Shard Plugin: FDataShardKey Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,13 +18,9 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,21 +30,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data Shard
+   <div id="projectname">Data Shard Plugin
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -65,6 +49,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -111,7 +106,7 @@ $(function(){initNavTree('struct_f_data_shard_key.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>&gt;</code></p>
+<p><code>#include &lt;DataShardKey.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -149,8 +144,6 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A key that uniquely identifies and provides access to data shards in the <a class="el" href="class_data_shard.html">DataShard</a> system</p>
 <p>DataShardKey combines an object reference (owner) and a string name to form a unique identifier that can be used to access and manage data within the <a class="el" href="class_data_shard.html">DataShard</a> subsystem. </p>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00017">17</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa073f054465f5d475682f48f6510bbde" name="aa073f054465f5d475682f48f6510bbde"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa073f054465f5d475682f48f6510bbde">&#9670;&#160;</a></span>FDataShardKey() <span class="overload">[1/2]</span></h2>
@@ -174,8 +167,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00022">22</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
 
 </div>
 </div>
@@ -214,8 +205,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00032">32</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,8 +232,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the owner as an AActor if it is one, otherwise nullptr </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00108">108</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
 <a id="ab840d08ca240a59e6f8fcc06e3521b72" name="ab840d08ca240a59e6f8fcc06e3521b72"></a>
@@ -271,8 +258,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the name portion of this key </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00114">114</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
 <a id="afcb0db50058158ceec750a1604bcf53f" name="afcb0db50058158ceec750a1604bcf53f"></a>
@@ -298,8 +283,6 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Returns the owner object of this key </p>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00111">111</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
 
 </div>
 </div>
@@ -338,8 +321,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the typed value, or nullptr if key is invalid or type mismatch </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_templates_8h_source.html#l00012">12</a> of file <a class="el" href="_data_shard_templates_8h_source.html">DataShardTemplates.h</a>.</p>
 
 </div>
 </div>
@@ -380,8 +361,6 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to a copy of the value, or nullptr if key is invalid or type mismatch </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The copy will not be updated if the original value changes </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_templates_8h_source.html#l00018">18</a> of file <a class="el" href="_data_shard_templates_8h_source.html">DataShardTemplates.h</a>.</p>
-
 </div>
 </div>
 <a id="a1bdff36bee4c9099fb093742bf9ba830" name="a1bdff36bee4c9099fb093742bf9ba830"></a>
@@ -406,8 +385,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key was successfully removed, false otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8cpp_source.html#l00012">12</a> of file <a class="el" href="_data_shard_key_8cpp_source.html">DataShardKey.cpp</a>.</p>
 
 </div>
 </div>
@@ -436,8 +413,6 @@ template&lt;typename T&gt; </div>
 <p>Checks if this key has valid structure (non-null owner and non-empty name) This does not check if the key exists in a subsystem</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the key has a valid structure, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00133">133</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
 <a id="aae8a97182e1b5ed1eb977af2363ce82b" name="aae8a97182e1b5ed1eb977af2363ce82b"></a>
@@ -462,8 +437,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key exists and points to a valid shard, false otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8cpp_source.html#l00022">22</a> of file <a class="el" href="_data_shard_key_8cpp_source.html">DataShardKey.cpp</a>.</p>
 
 </div>
 </div>
@@ -498,8 +471,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if both keys have the same owner and name, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00122">122</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
 <a id="a3f3e5ef869077270e269da04e7d0c5c7" name="a3f3e5ef869077270e269da04e7d0c5c7"></a>
@@ -524,8 +495,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key was successfully removed, false otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8cpp_source.html#l00017">17</a> of file <a class="el" href="_data_shard_key_8cpp_source.html">DataShardKey.cpp</a>.</p>
 
 </div>
 </div>
@@ -563,8 +532,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the value was successfully set, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8cpp_source.html#l00006">6</a> of file <a class="el" href="_data_shard_key_8cpp_source.html">DataShardKey.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a21fabaf06e10670cfb1c07735ceb4dbc" name="a21fabaf06e10670cfb1c07735ceb4dbc"></a>
@@ -592,15 +559,8 @@ template&lt;typename T&gt; </div>
 <p>Returns a string representation of this key</p>
 <dl class="section return"><dt>Returns</dt><dd>String with owner and name information, formatted for debugging </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_key_8h_source.html#l00099">99</a> of file <a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a>.</p>
-
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following files:<ul>
-<li>DataShard/Public/<a class="el" href="_data_shard_key_8h_source.html">DataShardKey.h</a></li>
-<li>DataShard/Private/<a class="el" href="_data_shard_key_8cpp_source.html">DataShardKey.cpp</a></li>
-<li>DataShard/Public/<a class="el" href="_data_shard_templates_8h_source.html">DataShardTemplates.h</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

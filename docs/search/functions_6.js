@@ -22,7 +22,6 @@ var searchData=
   ['getsharddump_19',['GetShardDump',['../class_u_data_shard_subsystem.html#ae60d031c7a037b8bdbdf3b04768d22e6',1,'UDataShardSubsystem']]],
   ['getshardidsforobject_20',['GetShardIDsForObject',['../class_u_data_shard_subsystem.html#abdd6b864f763004a947cdc08e95eec11',1,'UDataShardSubsystem']]],
   ['getshardstringdump_21',['GetShardStringDump',['../class_u_data_shard_subsystem.html#ae78d7feead51d0542554b23ac2e2440a',1,'UDataShardSubsystem']]],
-  ['gettypehash_22',['GetTypeHash',['../_data_shard_key_8h.html#ad85e2d0febed3ce02dc2d13d84f56ec7',1,'DataShardKey.h']]],
-  ['getvalue_23',['GetValue',['../struct_f_data_shard_key.html#a3e964282b3cf190dec4f870ee4c3a122',1,'FDataShardKey']]],
-  ['getvaluecopy_24',['GetValueCopy',['../struct_f_data_shard_key.html#a14e57ec4214dcdfbc6399ba0bbbdd3a7',1,'FDataShardKey']]]
+  ['getvalue_22',['GetValue',['../struct_f_data_shard_key.html#a3e964282b3cf190dec4f870ee4c3a122',1,'FDataShardKey']]],
+  ['getvaluecopy_23',['GetValueCopy',['../struct_f_data_shard_key.html#a14e57ec4214dcdfbc6399ba0bbbdd3a7',1,'FDataShardKey']]]
 ];

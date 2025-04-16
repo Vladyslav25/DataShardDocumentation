@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['loctext_5fnamespace_0',['LOCTEXT_NAMESPACE',['../_data_shard_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'DataShard.cpp']]]
+  ['makeglobalshardkey_0',['MakeGlobalShardKey',['../class_u_data_shard_utils___b_p.html#a8d727acf05630c28ec176ae2a64e3a09',1,'UDataShardUtils_BP']]],
+  ['makeshardkey_1',['MakeShardKey',['../class_u_data_shard_utils___b_p.html#a16a32675e37b8e17c7725824144bad12',1,'UDataShardUtils_BP']]]
 ];

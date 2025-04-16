@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Data Shard: DataShard/Public/DataShardUtils_BP.h Source File</title>
+<title>Data Shard Plugin: DataShard/Public/DataShardUtils_BP.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,13 +18,9 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,21 +30,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data Shard
+   <div id="projectname">Data Shard Plugin
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -65,6 +49,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -107,11 +102,11 @@ $(function(){initNavTree('_data_shard_utils___b_p_8h_source.html',''); initResiz
   <div class="headertitle"><div class="title">DataShardUtils_BP.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_data_shard_utils___b_p_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Fill out your copyright notice in the Description page of Project Settings.</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Fill out your copyright notice in the Description page of Project Settings.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="_data_shard_key_8h.html">DataShardKey.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;DataShardKey.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Kismet/BlueprintFunctionLibrary.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;DataShardUtils_BP.generated.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
@@ -129,7 +124,7 @@ $(function(){initNavTree('_data_shard_utils___b_p_8h_source.html',''); initResiz
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            ExpandBoolAsExecs = <span class="stringliteral">&quot;ReturnValue&quot;</span>))</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#a449b0dfa1cc1369c24ff46fc091e2182">   32</a></span>    static <span class="keywordtype">bool</span> <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#a449b0dfa1cc1369c24ff46fc091e2182">CreateShard</a>(const UObject* WorldContextObject, const <a class="code hl_struct" href="struct_f_data_shard_key.html">FDataShardKey</a>&amp; Key, const int32&amp; InStruct);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#ac8e4a0931234533188a77d9bdda6672f">   34</a></span>    <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#ac8e4a0931234533188a77d9bdda6672f">DECLARE_FUNCTION</a>(execCreateShard);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    DECLARE_FUNCTION(execCreateShard);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;DataShard&quot;</span>, meta = (WorldContext = <span class="stringliteral">&quot;WorldContextObject&quot;</span>,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        ExpandBoolAsExecs = <span class="stringliteral">&quot;ReturnValue&quot;</span>))</div>
@@ -140,14 +135,14 @@ $(function(){initNavTree('_data_shard_utils___b_p_8h_source.html',''); initResiz
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        ))</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#a99dd1131d6fbe0b006cd691190d1085e">   58</a></span>    static <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#a99dd1131d6fbe0b006cd691190d1085e">SetShardData</a>(const UObject* WorldContextObject, const <a class="code hl_struct" href="struct_f_data_shard_key.html">FDataShardKey</a>&amp; Key, const int32&amp; InStruct);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#af2fe42aa09018dfef89c46edbb6aabef">   60</a></span>    <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#ac8e4a0931234533188a77d9bdda6672f">DECLARE_FUNCTION</a>(execSetShardData);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    DECLARE_FUNCTION(execSetShardData);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    UFUNCTION(BlueprintCallable, CustomThunk, Category = <span class="stringliteral">&quot;DataShard&quot;</span>,</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        meta = (CustomStructureParam = <span class="stringliteral">&quot;OutStruct&quot;</span>, AutoCreateRefTerm = <span class="stringliteral">&quot;OutStruct&quot;</span>,</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            WorldContext = <span class="stringliteral">&quot;WorldContextObject&quot;</span>, ExpandBoolAsExecs = <span class="stringliteral">&quot;ReturnValue&quot;</span>))</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#a503c8902ca6d3cae1792964ccc8708ac">   73</a></span>    static <span class="keywordtype">bool</span> <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#a503c8902ca6d3cae1792964ccc8708ac">GetShardData</a>(const UObject* WorldContextObject, const <a class="code hl_struct" href="struct_f_data_shard_key.html">FDataShardKey</a>&amp; Key, int32&amp; OutStruct);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_u_data_shard_utils___b_p.html#acd4f99f63bbe60dd9ea72f2135c2f06a">   75</a></span>    <a class="code hl_function" href="class_u_data_shard_utils___b_p.html#ac8e4a0931234533188a77d9bdda6672f">DECLARE_FUNCTION</a>(execGetShardData);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    DECLARE_FUNCTION(execGetShardData);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;DataShard&quot;</span>,</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        meta=(WorldContext = <span class="stringliteral">&quot;WorldContextObject&quot;</span>, AdvancedDisplay = <span class="stringliteral">&quot;Actor&quot;</span>, DefaultToSelf = <span class="stringliteral">&quot;Actor&quot;</span>,</div>
@@ -182,29 +177,27 @@ $(function(){initNavTree('_data_shard_utils___b_p_8h_source.html',''); initResiz
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    static <a class="code hl_class" href="class_u_data_shard_subsystem.html">UDataShardSubsystem</a>* GetDataShardManager(const UObject* WorldContextObject);</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>};</div>
 </div>
-<div class="ttc" id="a_data_shard_key_8h_html"><div class="ttname"><a href="_data_shard_key_8h.html">DataShardKey.h</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_subsystem_html"><div class="ttname"><a href="class_u_data_shard_subsystem.html">UDataShardSubsystem</a></div><div class="ttdef"><b>Definition</b> <a href="_data_shard_subsystem_8h_source.html#l00021">DataShardSubsystem.h:22</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html">UDataShardUtils_BP</a></div><div class="ttdef"><b>Definition</b> <a href="#l00016">DataShardUtils_BP.h:17</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a16a32675e37b8e17c7725824144bad12"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a16a32675e37b8e17c7725824144bad12">UDataShardUtils_BP::MakeShardKey</a></div><div class="ttdeci">static FDataShardKey MakeShardKey(const FString &amp;Name, UObject *Owner)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00150">DataShardUtils_BP.cpp:150</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a1cefca4a3966ddf5884db19653f97af5"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a1cefca4a3966ddf5884db19653f97af5">UDataShardUtils_BP::UnbindAllEventsOnShardDataChange</a></div><div class="ttdeci">static void UnbindAllEventsOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00188">DataShardUtils_BP.cpp:188</a></div></div>
+<div class="ttc" id="aclass_u_data_shard_subsystem_html"><div class="ttname"><a href="class_u_data_shard_subsystem.html">UDataShardSubsystem</a></div><div class="ttdef"><b>Definition</b> DataShardSubsystem.h:22</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html">UDataShardUtils_BP</a></div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.h:17</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a16a32675e37b8e17c7725824144bad12"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a16a32675e37b8e17c7725824144bad12">UDataShardUtils_BP::MakeShardKey</a></div><div class="ttdeci">static FDataShardKey MakeShardKey(const FString &amp;Name, UObject *Owner)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:150</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a1cefca4a3966ddf5884db19653f97af5"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a1cefca4a3966ddf5884db19653f97af5">UDataShardUtils_BP::UnbindAllEventsOnShardDataChange</a></div><div class="ttdeci">static void UnbindAllEventsOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:188</div></div>
 <div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a449b0dfa1cc1369c24ff46fc091e2182"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a449b0dfa1cc1369c24ff46fc091e2182">UDataShardUtils_BP::CreateShard</a></div><div class="ttdeci">static bool CreateShard(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const int32 &amp;InStruct)</div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a4553be9c90db4a7b44095d161e3c89b9"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a4553be9c90db4a7b44095d161e3c89b9">UDataShardUtils_BP::CreateBoundKey</a></div><div class="ttdeci">static bool CreateBoundKey(const UObject *WorldContextObject, const FDataShardKey &amp;Parent, const FString &amp;Name, AActor *Actor, FDataShardKey &amp;OutKey)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00140">DataShardUtils_BP.cpp:140</a></div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a4553be9c90db4a7b44095d161e3c89b9"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a4553be9c90db4a7b44095d161e3c89b9">UDataShardUtils_BP::CreateBoundKey</a></div><div class="ttdeci">static bool CreateBoundKey(const UObject *WorldContextObject, const FDataShardKey &amp;Parent, const FString &amp;Name, AActor *Actor, FDataShardKey &amp;OutKey)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:140</div></div>
 <div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a503c8902ca6d3cae1792964ccc8708ac"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a503c8902ca6d3cae1792964ccc8708ac">UDataShardUtils_BP::GetShardData</a></div><div class="ttdeci">static bool GetShardData(const UObject *WorldContextObject, const FDataShardKey &amp;Key, int32 &amp;OutStruct)</div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a5068741009a84eb29d66b40b94e5a786"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a5068741009a84eb29d66b40b94e5a786">UDataShardUtils_BP::ShardDataAsString</a></div><div class="ttdeci">static FString ShardDataAsString(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00197">DataShardUtils_BP.cpp:197</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a8d727acf05630c28ec176ae2a64e3a09"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a8d727acf05630c28ec176ae2a64e3a09">UDataShardUtils_BP::MakeGlobalShardKey</a></div><div class="ttdeci">static FDataShardKey MakeGlobalShardKey(const UObject *WorldContextObject, const FString &amp;Name)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00159">DataShardUtils_BP.cpp:159</a></div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a5068741009a84eb29d66b40b94e5a786"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a5068741009a84eb29d66b40b94e5a786">UDataShardUtils_BP::ShardDataAsString</a></div><div class="ttdeci">static FString ShardDataAsString(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:197</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a8d727acf05630c28ec176ae2a64e3a09"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a8d727acf05630c28ec176ae2a64e3a09">UDataShardUtils_BP::MakeGlobalShardKey</a></div><div class="ttdeci">static FDataShardKey MakeGlobalShardKey(const UObject *WorldContextObject, const FString &amp;Name)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:159</div></div>
 <div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a99dd1131d6fbe0b006cd691190d1085e"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a99dd1131d6fbe0b006cd691190d1085e">UDataShardUtils_BP::SetShardData</a></div><div class="ttdeci">static void SetShardData(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const int32 &amp;InStruct)</div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a99f2bb5b72bdb0c983475632c0c5eb83"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a99f2bb5b72bdb0c983475632c0c5eb83">UDataShardUtils_BP::AllShardDataAsString</a></div><div class="ttdeci">static FString AllShardDataAsString(const UObject *WorldContextObject, const AActor *Actor)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00209">DataShardUtils_BP.cpp:209</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_aa49164346b93afef339b0359dbefa1bc"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#aa49164346b93afef339b0359dbefa1bc">UDataShardUtils_BP::BindEventOnShardDataChange</a></div><div class="ttdeci">static void BindEventOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const FOnShardDataChange &amp;Event)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00170">DataShardUtils_BP.cpp:170</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_ab5f7318cdbd58b0a8639ff0e9a43d6fb"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#ab5f7318cdbd58b0a8639ff0e9a43d6fb">UDataShardUtils_BP::UnbindEventOnShardDataChange</a></div><div class="ttdeci">static void UnbindEventOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const FOnShardDataChange &amp;Event)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00179">DataShardUtils_BP.cpp:179</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_ab824ecaa6cbf3060aeae876cb4e1ee36"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#ab824ecaa6cbf3060aeae876cb4e1ee36">UDataShardUtils_BP::RemoveShard</a></div><div class="ttdeci">static bool RemoveShard(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_utils___b_p_8cpp_source.html#l00049">DataShardUtils_BP.cpp:49</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_ac8e4a0931234533188a77d9bdda6672f"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#ac8e4a0931234533188a77d9bdda6672f">UDataShardUtils_BP::DECLARE_FUNCTION</a></div><div class="ttdeci">DECLARE_FUNCTION(execCreateShard)</div></div>
-<div class="ttc" id="astruct_f_data_shard_key_html"><div class="ttname"><a href="struct_f_data_shard_key.html">FDataShardKey</a></div><div class="ttdef"><b>Definition</b> <a href="_data_shard_key_8h_source.html#l00017">DataShardKey.h:18</a></div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_a99f2bb5b72bdb0c983475632c0c5eb83"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#a99f2bb5b72bdb0c983475632c0c5eb83">UDataShardUtils_BP::AllShardDataAsString</a></div><div class="ttdeci">static FString AllShardDataAsString(const UObject *WorldContextObject, const AActor *Actor)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:209</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_aa49164346b93afef339b0359dbefa1bc"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#aa49164346b93afef339b0359dbefa1bc">UDataShardUtils_BP::BindEventOnShardDataChange</a></div><div class="ttdeci">static void BindEventOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const FOnShardDataChange &amp;Event)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:170</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_ab5f7318cdbd58b0a8639ff0e9a43d6fb"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#ab5f7318cdbd58b0a8639ff0e9a43d6fb">UDataShardUtils_BP::UnbindEventOnShardDataChange</a></div><div class="ttdeci">static void UnbindEventOnShardDataChange(const UObject *WorldContextObject, const FDataShardKey &amp;Key, const FOnShardDataChange &amp;Event)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:179</div></div>
+<div class="ttc" id="aclass_u_data_shard_utils___b_p_html_ab824ecaa6cbf3060aeae876cb4e1ee36"><div class="ttname"><a href="class_u_data_shard_utils___b_p.html#ab824ecaa6cbf3060aeae876cb4e1ee36">UDataShardUtils_BP::RemoveShard</a></div><div class="ttdeci">static bool RemoveShard(const UObject *WorldContextObject, const FDataShardKey &amp;Key)</div><div class="ttdef"><b>Definition</b> DataShardUtils_BP.cpp:49</div></div>
+<div class="ttc" id="astruct_f_data_shard_key_html"><div class="ttname"><a href="struct_f_data_shard_key.html">FDataShardKey</a></div><div class="ttdef"><b>Definition</b> DataShardKey.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7e4bcc77f2c90a6bc54fa0c31cb474ba.html">DataShard</a></li><li class="navelem"><a class="el" href="dir_f3a199b53a55f49f5780d7ea88ac21b5.html">Public</a></li><li class="navelem"><a class="el" href="_data_shard_utils___b_p_8h.html">DataShardUtils_BP.h</a></li>
+    <li class="navelem"><a class="el" href="dir_7e4bcc77f2c90a6bc54fa0c31cb474ba.html">DataShard</a></li><li class="navelem"><a class="el" href="dir_f3a199b53a55f49f5780d7ea88ac21b5.html">Public</a></li><li class="navelem"><b>DataShardUtils_BP.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -9,5 +9,5 @@ var annotated_dup =
     [ "UDataShardPool", "class_u_data_shard_pool.html", "class_u_data_shard_pool" ],
     [ "UDataShardSettings", "class_u_data_shard_settings.html", "class_u_data_shard_settings" ],
     [ "UDataShardSubsystem", "class_u_data_shard_subsystem.html", "class_u_data_shard_subsystem" ],
-    [ "UDataShardUtils_BP", "class_u_data_shard_utils___b_p.html", "class_u_data_shard_utils___b_p" ]
+    [ "UDataShardUtils_BP", "class_u_data_shard_utils___b_p.html", null ]
 ];

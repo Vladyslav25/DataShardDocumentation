@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Data Shard: DataShard/Public/DatashardSubsystem.inl Source File</title>
+<title>Data Shard Plugin: DataShard/Public/DatashardSubsystem.inl Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,13 +18,9 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,21 +30,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data Shard
+   <div id="projectname">Data Shard Plugin
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -65,6 +49,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -107,7 +102,7 @@ $(function(){initNavTree('_datashard_subsystem_8inl_source.html',''); initResiza
   <div class="headertitle"><div class="title">DatashardSubsystem.inl</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_datashard_subsystem_8inl.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// DataShardSubsystem.inl</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// DataShardSubsystem.inl</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
@@ -138,19 +133,19 @@ $(function(){initNavTree('_datashard_subsystem_8inl_source.html',''); initResiza
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordflow">return</span> Shard ? Shard-&gt;<a class="code hl_function" href="class_u_data_shard_object.html#a7b4c7e6a948576949c51ffc846e31598">GetDataCopy</a>&lt;T&gt;() : <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
 </div>
-<div class="ttc" id="aclass_u_data_shard_object_html"><div class="ttname"><a href="class_u_data_shard_object.html">UDataShardObject</a></div><div class="ttdef"><b>Definition</b> <a href="_data_shard_object_8h_source.html#l00026">DataShardObject.h:27</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_object_html_a7b4c7e6a948576949c51ffc846e31598"><div class="ttname"><a href="class_u_data_shard_object.html#a7b4c7e6a948576949c51ffc846e31598">UDataShardObject::GetDataCopy</a></div><div class="ttdeci">TSharedPtr&lt; const T &gt; GetDataCopy() const</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_object_8h_source.html#l00070">DataShardObject.h:70</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_object_html_aef744041cc6f6df2c7abe916d9e2d050"><div class="ttname"><a href="class_u_data_shard_object.html#aef744041cc6f6df2c7abe916d9e2d050">UDataShardObject::GetData</a></div><div class="ttdeci">const T * GetData() const</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_object_8h_source.html#l00054">DataShardObject.h:54</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_subsystem_html_adcfac5143c466592214492de9362050a"><div class="ttname"><a href="class_u_data_shard_subsystem.html#adcfac5143c466592214492de9362050a">UDataShardSubsystem::GetShardDataCopy</a></div><div class="ttdeci">TSharedPtr&lt; const T &gt; GetShardDataCopy(const FDataShardKey &amp;Key, const bool bCheck=false) const</div><div class="ttdef"><b>Definition</b> <a href="#l00018">DatashardSubsystem.inl:18</a></div></div>
-<div class="ttc" id="aclass_u_data_shard_subsystem_html_af735421e8686563329bc4cb7488a9670"><div class="ttname"><a href="class_u_data_shard_subsystem.html#af735421e8686563329bc4cb7488a9670">UDataShardSubsystem::GetShardData</a></div><div class="ttdeci">bool GetShardData(const FDataShardKey &amp;Key, const void *&amp;OutData) const</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_subsystem_8cpp_source.html#l00074">DataShardSubsystem.cpp:74</a></div></div>
-<div class="ttc" id="astruct_f_data_shard_key_html"><div class="ttname"><a href="struct_f_data_shard_key.html">FDataShardKey</a></div><div class="ttdef"><b>Definition</b> <a href="_data_shard_key_8h_source.html#l00017">DataShardKey.h:18</a></div></div>
-<div class="ttc" id="astruct_f_data_shard_key_html_a21fabaf06e10670cfb1c07735ceb4dbc"><div class="ttname"><a href="struct_f_data_shard_key.html#a21fabaf06e10670cfb1c07735ceb4dbc">FDataShardKey::ToString</a></div><div class="ttdeci">FString ToString() const</div><div class="ttdef"><b>Definition</b> <a href="_data_shard_key_8h_source.html#l00099">DataShardKey.h:99</a></div></div>
+<div class="ttc" id="aclass_u_data_shard_object_html"><div class="ttname"><a href="class_u_data_shard_object.html">UDataShardObject</a></div><div class="ttdef"><b>Definition</b> DataShardObject.h:27</div></div>
+<div class="ttc" id="aclass_u_data_shard_object_html_a7b4c7e6a948576949c51ffc846e31598"><div class="ttname"><a href="class_u_data_shard_object.html#a7b4c7e6a948576949c51ffc846e31598">UDataShardObject::GetDataCopy</a></div><div class="ttdeci">TSharedPtr&lt; const T &gt; GetDataCopy() const</div><div class="ttdef"><b>Definition</b> DataShardObject.h:70</div></div>
+<div class="ttc" id="aclass_u_data_shard_object_html_aef744041cc6f6df2c7abe916d9e2d050"><div class="ttname"><a href="class_u_data_shard_object.html#aef744041cc6f6df2c7abe916d9e2d050">UDataShardObject::GetData</a></div><div class="ttdeci">const T * GetData() const</div><div class="ttdef"><b>Definition</b> DataShardObject.h:54</div></div>
+<div class="ttc" id="aclass_u_data_shard_subsystem_html_adcfac5143c466592214492de9362050a"><div class="ttname"><a href="class_u_data_shard_subsystem.html#adcfac5143c466592214492de9362050a">UDataShardSubsystem::GetShardDataCopy</a></div><div class="ttdeci">TSharedPtr&lt; const T &gt; GetShardDataCopy(const FDataShardKey &amp;Key, const bool bCheck=false) const</div><div class="ttdef"><b>Definition</b> DatashardSubsystem.inl:18</div></div>
+<div class="ttc" id="aclass_u_data_shard_subsystem_html_af735421e8686563329bc4cb7488a9670"><div class="ttname"><a href="class_u_data_shard_subsystem.html#af735421e8686563329bc4cb7488a9670">UDataShardSubsystem::GetShardData</a></div><div class="ttdeci">bool GetShardData(const FDataShardKey &amp;Key, const void *&amp;OutData) const</div><div class="ttdef"><b>Definition</b> DataShardSubsystem.cpp:74</div></div>
+<div class="ttc" id="astruct_f_data_shard_key_html"><div class="ttname"><a href="struct_f_data_shard_key.html">FDataShardKey</a></div><div class="ttdef"><b>Definition</b> DataShardKey.h:18</div></div>
+<div class="ttc" id="astruct_f_data_shard_key_html_a21fabaf06e10670cfb1c07735ceb4dbc"><div class="ttname"><a href="struct_f_data_shard_key.html#a21fabaf06e10670cfb1c07735ceb4dbc">FDataShardKey::ToString</a></div><div class="ttdeci">FString ToString() const</div><div class="ttdef"><b>Definition</b> DataShardKey.h:99</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7e4bcc77f2c90a6bc54fa0c31cb474ba.html">DataShard</a></li><li class="navelem"><a class="el" href="dir_f3a199b53a55f49f5780d7ea88ac21b5.html">Public</a></li><li class="navelem"><a class="el" href="_datashard_subsystem_8inl.html">DatashardSubsystem.inl</a></li>
+    <li class="navelem"><a class="el" href="dir_7e4bcc77f2c90a6bc54fa0c31cb474ba.html">DataShard</a></li><li class="navelem"><a class="el" href="dir_f3a199b53a55f49f5780d7ea88ac21b5.html">Public</a></li><li class="navelem"><b>DatashardSubsystem.inl</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

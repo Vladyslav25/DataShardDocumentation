@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Data Shard: UDataShardSubsystem Class Reference</title>
+<title>Data Shard Plugin: UDataShardSubsystem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,13 +18,9 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,21 +30,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data Shard
+   <div id="projectname">Data Shard Plugin
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -65,6 +49,17 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,7 +107,7 @@ $(function(){initNavTree('class_u_data_shard_subsystem.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>&gt;</code></p>
+<p><code>#include &lt;DataShardSubsystem.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for UDataShardSubsystem:</div>
 <div class="dyncontent">
@@ -204,10 +199,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1ac1fad187d70596bd929a0d44ea1fbd" id="r_a1ac1fad187d70596bd929a0d44ea1fbd"><td class="memItemLeft" align="right" valign="top">FOnShardRemoved&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ac1fad187d70596bd929a0d44ea1fbd">OnShardRemoved</a></td></tr>
 <tr class="separator:a1ac1fad187d70596bd929a0d44ea1fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00021">21</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a86be1b1948bb25ae5d3f852cc44c897f" name="a86be1b1948bb25ae5d3f852cc44c897f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86be1b1948bb25ae5d3f852cc44c897f">&#9670;&#160;</a></span>BindEventOnDataChange() <span class="overload">[1/2]</span></h2>
 
@@ -235,8 +227,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>The delegate will receive the key of the changed shard as a parameter </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00207">207</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -268,8 +258,6 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>The delegate will receive the ID of the changed shard as a parameter </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00213">213</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a3cd41cf83f0e6a9ca9592c1d62e83428" name="a3cd41cf83f0e6a9ca9592c1d62e83428"></a>
@@ -299,8 +287,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The newly created key (will be invalid if creation failed) </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00195">195</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,8 +324,6 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the new bound key was created successfully, false if the parent key is invalid </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00166">166</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a963c52d3a6fedbbe585eb323a476e9ec" name="a963c52d3a6fedbbe585eb323a476e9ec"></a>
@@ -375,8 +359,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the shard was successfully created, false if invalid parameters or if the key already exists </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00024">24</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -414,8 +396,6 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the shard was successfully created, false if invalid parameters or if the key already exists </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00055">55</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a2492d4420dbb632be9e5f49e9261b534" name="a2492d4420dbb632be9e5f49e9261b534"></a>
@@ -440,8 +420,6 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00018">18</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -469,8 +447,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the number of active shards in the pool </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00282">282</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
 <a id="a8e2aecbc3abd2dfe66b768b463e5d45d" name="a8e2aecbc3abd2dfe66b768b463e5d45d"></a>
@@ -497,8 +473,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the number of available (unused) shards in the pool </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00285">285</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
 <a id="a3de0cc9aacd60b1db335b359d59932cb" name="a3de0cc9aacd60b1db335b359d59932cb"></a>
@@ -522,8 +496,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Formatted string with details about all associated shards </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00493">493</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -549,8 +521,6 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Formatted string with shard details </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00488">488</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a57c41926dab1d8927e653e296c302954" name="a57c41926dab1d8927e653e296c302954"></a>
@@ -574,8 +544,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Formatted string with shard details </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00482">482</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -602,8 +570,6 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The FFieldClass of the property, or nullptr if the key is invalid </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00240">240</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a2a809d5e394e1f382ff3d49468a50ee2" name="a2a809d5e394e1f382ff3d49468a50ee2"></a>
@@ -628,8 +594,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Format: ActorName KeyName -&gt; ShardID </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00418">418</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -657,8 +621,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the total pool size (active + available shards) </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00279">279</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
 <a id="adde9fbf6eb2375f2007542ea13a28de9" name="adde9fbf6eb2375f2007542ea13a28de9"></a>
@@ -683,8 +645,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Format: ShardID -&gt; RefNum </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00438">438</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -725,8 +685,6 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the typed data (nullptr if not found or type mismatch) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The returned pointer is owned by the shard and should not be deleted by the caller </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_datashard_subsystem_8inl_source.html#l00006">6</a> of file <a class="el" href="_datashard_subsystem_8inl_source.html">DatashardSubsystem.inl</a>.</p>
-
 </div>
 </div>
 <a id="af735421e8686563329bc4cb7488a9670" name="af735421e8686563329bc4cb7488a9670"></a>
@@ -757,8 +715,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the data was found and OutData was set, false otherwise </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The caller is responsible for casting the data to the correct type </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00074">74</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -799,8 +755,6 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to a copy of the data (nullptr if not found or type mismatch) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The returned copy will not be updated if the original shard data changes </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_datashard_subsystem_8inl_source.html#l00018">18</a> of file <a class="el" href="_datashard_subsystem_8inl_source.html">DatashardSubsystem.inl</a>.</p>
-
 </div>
 </div>
 <a id="ae60d031c7a037b8bdbdf3b04768d22e6" name="ae60d031c7a037b8bdbdf3b04768d22e6"></a>
@@ -825,8 +779,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Format: "Shard ID -&gt; Shard Class" </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00395">395</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -858,8 +810,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>The OutArray is not cleared before adding IDs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00472">472</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ae78d7feead51d0542554b23ac2e2440a" name="ae78d7feead51d0542554b23ac2e2440a"></a>
@@ -885,8 +835,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Format: Actor: Name Shard Value Shard Value ... </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00407">407</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="aa1a640ed93b3bbdd7b57e722339e1dcd" name="aa1a640ed93b3bbdd7b57e722339e1dcd"></a>
@@ -911,8 +859,6 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00009">9</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -943,8 +889,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if data shard property is the same type as the @OtherProperty </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00250">250</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a51e17483626ab5b97c76e0b4923e8e75" name="a51e17483626ab5b97c76e0b4923e8e75"></a>
@@ -969,8 +913,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key exists and points to a valid shard, false otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00202">202</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -1002,8 +944,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the shard's property class is a child of the specified class, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00265">265</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="aa69e72f00ba21544e3998f1324318463" name="aa69e72f00ba21544e3998f1324318463"></a>
@@ -1034,8 +974,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the shard's property class matches the specified class exactly, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00260">260</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a0c670a2698066c0cc621e3b8c4a2c506" name="a0c670a2698066c0cc621e3b8c4a2c506"></a>
@@ -1060,8 +998,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key was found and removed successfully, false otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00114">114</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -1099,8 +1035,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the data was successfully updated, false if the shard wasn't found or the property type doesn't match </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00096">96</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a34fc9ef2855a6e66870e7ab79bd65635" name="a34fc9ef2855a6e66870e7ab79bd65635"></a>
@@ -1137,8 +1071,6 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the data was successfully updated, false if the shard wasn't found or the property type doesn't match </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00085">85</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a332b1e96ec5715e262a232322bdc5746" name="a332b1e96ec5715e262a232322bdc5746"></a>
@@ -1163,8 +1095,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00229">229</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="af49ba1745d61f773191de774c3861050" name="af49ba1745d61f773191de774c3861050"></a>
@@ -1188,8 +1118,6 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00235">235</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
 
 </div>
 </div>
@@ -1220,8 +1148,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00218">218</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ab6f24de536aa69c17310bdbff61624c5" name="ab6f24de536aa69c17310bdbff61624c5"></a>
@@ -1251,8 +1177,6 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8cpp_source.html#l00224">224</a> of file <a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1269,8 +1193,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 <p>Broadcast when a new key is added to the system </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00312">312</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
 <a id="a8c6593d07606a68c0ae0d00a78d80dd2" name="a8c6593d07606a68c0ae0d00a78d80dd2"></a>
@@ -1285,8 +1207,6 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Broadcast when a key is removed from the system </p>
-
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00315">315</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
 
 </div>
 </div>
@@ -1303,8 +1223,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 <p>Broadcast when a new shard is added to the system </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00309">309</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
 <a id="a1ac1fad187d70596bd929a0d44ea1fbd" name="a1ac1fad187d70596bd929a0d44ea1fbd"></a>
@@ -1320,15 +1238,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 <p>Broadcast when a shard is removed from the system </p>
 
-<p class="definition">Definition at line <a class="el" href="_data_shard_subsystem_8h_source.html#l00318">318</a> of file <a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a>.</p>
-
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>DataShard/Public/<a class="el" href="_data_shard_subsystem_8h_source.html">DataShardSubsystem.h</a></li>
-<li>DataShard/Private/<a class="el" href="_data_shard_subsystem_8cpp_source.html">DataShardSubsystem.cpp</a></li>
-<li>DataShard/Public/<a class="el" href="_datashard_subsystem_8inl_source.html">DatashardSubsystem.inl</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
